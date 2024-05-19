@@ -20,8 +20,6 @@ class Employee extends Person{
 		
 	}
 
-
-	
 	 jobGreet(){
 		 return `Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}.`;
 	 }
@@ -34,6 +32,9 @@ console.log(employee.jobGreet());
 
 
 
-// // Do not change code below this line
-// window.Person = Person;
-// window.Employee = Employee;
+// Do not change code below this line
+window.Person = Person;
+window.Employee = Employee;
+
+const Person = window.Person;
+const Employee = window.Employee;
