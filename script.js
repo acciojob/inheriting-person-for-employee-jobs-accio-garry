@@ -36,5 +36,5 @@ console.log(employee.jobGreet());
 window.Person = Person;
 window.Employee = Employee;
 
-const Person = window.Person;
-const Employee = window.Employee;
+console.log(window.Person);
+console.log(window.Employee);
