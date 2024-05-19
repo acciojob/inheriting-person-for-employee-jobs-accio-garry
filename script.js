@@ -1,6 +1,4 @@
-
-
- class Person {
+class Person {
  	constructor(name, age) {
 		this.name=name;
 		this.age=age;	
@@ -10,7 +8,6 @@
 		 return `Hello, my name is ${this.name}, I am ${this.age} years old.`;
 	 }
  }
-
 
 class Employee extends Person{
 
@@ -29,8 +26,6 @@ let person = new Person("Alice", 25);
 console.log(person.greet());
 let employee = new Employee("Bob", 30, "Manager");
 console.log(employee.jobGreet());
-
-
 
 // Do not change code below this line
 window.Person = Person;
